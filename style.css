@@ -8,6 +8,22 @@ body {
     padding: 20px;
 }
 
+.about-btn {
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    background-color: #0077b6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+ 
+.about-btn:hover {
+    background-color: #005f8c;
+}
+
 h1 {
     font-size: 36px;
     color: #0077b6;
