@@ -26,3 +26,27 @@ h2:hover {
     color: #0077b6;
     transition: color 0.3s ease-in-out;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef6fc;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+ 
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+has context menu
+
+
+has context menu
