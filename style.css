@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef6fc;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #0077b6;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 28px;
+    color: #023e8a;
+    margin: 20px 0;
+}
+
+h2:hover {
+    color: #0077b6;
+    transition: color 0.3s ease-in-out;
+}
