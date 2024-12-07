@@ -27,10 +27,19 @@
   <br></br>
   
   <h2>Interactive Population Projection</h2>
-  <p>How will a 50% decrease in one species impact the others?  Click for answers from ChatGPT...</p>
-  <button class="phytoplankton-btn"
-  onclick="phytoplanktondata()">Phytoplankton</button>
-  <div id="dataoutput" style="margin-top: 50px;"></div>
+  <p>In the Atlantic Ocean, how will a 50% decrease in one species impact the others?  Click for answers from ChatGPT...</p>
+  <button class="phytoplankton-btn" onclick="phytoplanktondata()">Phytoplankton</button>
+  <button class="zooplankton-btn"              onclick="zooplanktondata()">Zooplankton</button>
+  <button class="anchovies-btn"              onclick="anchoviesdata()">Anchovies</button>
+  
+  <div id="dataoutput1" style="margin-top: 50px;"></div>
+  <div id="dataoutput2" style="margin-top: 50px;"></div>
+  <div id="dataoutput3" style="margin-top: 50px;"></div>
+  <div id="dataoutput4" style="margin-top: 50px;"></div>
+  <div id="dataoutput5" style="margin-top: 50px;"></div>
+  <div id="dataoutput6" style="margin-top: 50px;"></div>
+  <div id="dataoutput7" style="margin-top: 50px;"></div>
+  <div id="dataoutput8" style="margin-top: 50px;"></div>
    <br></br>
   <div id="about-section" style="margin-top: 50px;">
 <h2>About Us</h2>
@@ -42,9 +51,49 @@
         function scrollToSection() {
             document.getElementById("about-section").scrollIntoView({ behavior: "smooth" });
         }
+      
         function phytoplanktondata() {
-          document.getElementById("dataoutput").innerHTML = "Test";
+    document.getElementById("dataoutput1").innerHTML = "Zooplankton population: Decrease by 30-50%";
+    document.getElementById("dataoutput2").innerHTML = "Anchovy population: Decrease by 20-40%";
+    document.getElementById("dataoutput3").innerHTML = "Jellyfish population: Increase by 10-20%";
+    document.getElementById("dataoutput4").innerHTML = "Blue whale population: Decrease by 5-15%";
+    document.getElementById("dataoutput5").innerHTML = "Tuna population: Decrease by 10-20%";
+    document.getElementById("dataoutput6").innerHTML = "Leatherback sea turtle population: Decrease by 5-10%";
+    document.getElementById("dataoutput7").innerHTML = "Dolphin population: Decrease by 5-10%";
+    document.getElementById("dataoutput8").innerHTML = "Great white shark population: Decrease by 5-10%";
          phytoplanktondata();
         }
-  </script>
+      
+      function zooplanktondata() {
+    document.getElementById("dataoutput1").innerHTML = "Phytoplankton population: No significant direct impact (likely unchanged)";
+    document.getElementById("dataoutput2").innerHTML = "Anchovy population: Decrease by 20-40%";
+    document.getElementById("dataoutput3").innerHTML = "Jellyfish population: Increase by 10-20%";
+    document.getElementById("dataoutput4").innerHTML = "Blue whale population: Decrease by 5-10%";
+    document.getElementById("dataoutput5").innerHTML = "Tuna population: Decrease by 10-20%";
+    document.getElementById("dataoutput6").innerHTML = "Leatherback sea turtle population: Decrease by 5-10%";
+    document.getElementById("dataoutput7").innerHTML = "Dolphin population: Decrease by 5-10%";
+    document.getElementById("dataoutput8").innerHTML = "Great white shark population: Decrease by 5-10%";
+         zooplanktondata();
+        }
+      
+      function anchoviesdata() {
+    document.getElementById("dataoutput1").innerHTML = "Phytoplankton population: No significant direct impact (likely unchanged)";
+    document.getElementById("dataoutput2").innerHTML = "Zooplankton population: No significant direct impact (likely unchanged)";
+    document.getElementById("dataoutput3").innerHTML = "Jellyfish population: Increase by 5-10%";
+    document.getElementById("dataoutput4").innerHTML = "Blue whale population: Decrease by 5-10%";
+    document.getElementById("dataoutput5").innerHTML = "Tuna population: Decrease by 10-20%";
+    document.getElementById("dataoutput6").innerHTML = "Leatherback sea turtle population: Decrease by 5-10%";
+    document.getElementById("dataoutput7").innerHTML = "Dolphin population: Decrease by 5-10%";
+    document.getElementById("dataoutput8").innerHTML = "Great white shark population: Decrease by 5-10%";
+         anchoviesdata();
+        }
+      </script>
+       
+<footer>
+  <div class="footer-content">
+  <p>© 2024 Aquatic Food Chain Education. All rights reserved.</p>
+  <p>Designed by WCTD Hack-a-thon Level 1 Team</p>
+  </div>
+</footer>
+      
 </body>

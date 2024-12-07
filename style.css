@@ -40,6 +40,71 @@ body {
     background-color: #005f8c;
 }
 
+.zooplankton-btn {
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    background-color: #0077b6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+ 
+.zooplankton-btn:hover {
+    background-color: #005f8c;
+}
+
+.anchovies-btn {
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    background-color: #0077b6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+ 
+.anchovies-btn:hover {
+    background-color: #005f8c;
+}
+
+.jellyfish-btn {
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    background-color: #0077b6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+ 
+.jellyfish-btn:hover {
+    background-color: #005f8c;
+}
+
+.bluewhales-btn {
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    background-color: #0077b6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+ 
+.bluewhales-btn:hover {
+    background-color: #005f8c;
+}
+
+
 h1 {
     font-size: 36px;
     color: #0077b6;
@@ -109,6 +174,19 @@ canvas {
     border-radius: 5px;
 }
 
-#dataoutput {
- border: 3px solid; 
+footer {
+    background-color: #0077b6;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
+}
+ 
+footer {
+    background-color: #0077b6;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
 }
