@@ -24,6 +24,22 @@ body {
     background-color: #005f8c;
 }
 
+.phytoplankton-btn {
+    font-size: 16px;
+    color: white;
+    font-family: monospace;
+    background-color: #0077b6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+ 
+.phytoplankton-btn:hover {
+    background-color: #005f8c;
+}
+
 h1 {
     font-size: 36px;
     color: #0077b6;
@@ -66,3 +82,33 @@ has context menu
 
 
 has context menu
+
+css:
+#virtual-models {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+ 
+.model {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+ 
+canvas {
+    width: 100%;
+    height: 200px;
+    background: #eef6fc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#dataoutput {
+ border: 3px solid; 
+}

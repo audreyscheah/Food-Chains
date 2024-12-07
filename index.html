@@ -6,10 +6,33 @@
 <h2>Ecosystems and Food Chains Underwater</h2>
 <h2>The Effects of Climate Change</h2>
 <h2>Simple Atlantic Ocean Food Chain Model</h2>
+<div id="virtual-models">
+<div class="model">
+<h3>Shark</h3>
+<p>Sharks are _</p>
+<!-- Placeholder for 3D model -->
+<canvas id="sharkModel"></canvas>
+</div>
+<div class="model">
+<h3>Dolphin</h3>
+<p>Dolphins are _</p>
+<!-- Placeholder for 3D model -->
+<canvas id="dolphinModel"></canvas>
+</div>
+</div>
+
+
 <img src = "https://previews.dropbox.com/p/thumb/ACfz333X9m7WMP6IUG9uD-NiS4Glb8aVB1KM4AY8MogNztSeQdnBvK03oyVadvfdDy15ghzadjxAG6PBqxF_ZKfXZWdIhN2ZrrxT9m9KREY0Recu4-4sz5NjVoHYPEf_U2CSuI9KHgkcuI2SmmqijeBP_g2G8CVTCuK4Bu1umEFNATLkZNRZSVXq2gb1DMVMkRXS0Ywi1igNCy6cV0VV1xpJnUS1C-PhXhJzqDZ3G-EQkvgBRX2xKMgqTiTRhrz-35kCgXs8pxed8C1zeOjoog2e3ghpRSj5Cudh_g-SQrf4mHzkNk3DUashr_70t97FAnzap5rPiYO2NbdUdEFimOtN/p.png?is_prewarmed=true"
      width = 750px>
+  <br></br>
   
- <div id="about-section" style="margin-top: 50px;">
+  <h2>Interactive Population Projection</h2>
+  <p>How will a 50% decrease in one species impact the others?  Click for answers from ChatGPT...</p>
+  <button class="phytoplankton-btn"
+  onclick="phytoplanktondata()">Phytoplankton</button>
+  <div id="dataoutput" style="margin-top: 50px;"></div>
+   <br></br>
+  <div id="about-section" style="margin-top: 50px;">
 <h2>About Us</h2>
 <p>We are a dedicated team of 3 focused on educating people about the aquatic ecosystems of the Atlantic Ocean and how food chains function underwater.</p>
 <p> Our goal is to provide a detailed look into marine biology and how different species interact in the ocean food web.</p>
@@ -19,5 +42,9 @@
         function scrollToSection() {
             document.getElementById("about-section").scrollIntoView({ behavior: "smooth" });
         }
-</script>
+        function phytoplanktondata() {
+          document.getElementById("dataoutput").innerHTML = "Test";
+         phytoplanktondata();
+        }
+  </script>
 </body>
