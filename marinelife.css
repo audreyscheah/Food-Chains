@@ -9,6 +9,14 @@ html, body {
   padding: 20px;
 }
 
+#Title{
+  font-size: 50px;
+  font-family: cursive;
+  font-style: italic;
+  color: purple;
+  background-color: #0077b6;
+}
+
 .menu ul{
   list style: none;
   margin: 0;
@@ -24,7 +32,14 @@ html, body {
 .menu a{
   color:#333;
   font-family: monospace;
+  font-size: 18px;
+  text-decoration: none;
 }
+
+.menu a:hover{
+  font-size: 20px;
+}
+
  
 .wrapper {
   display: flex;
@@ -34,71 +49,6 @@ html, body {
  
 .content {
   flex: 1;
-}
-
-.about-btn {
-    font-size: 16px;
-    color: white;
-    font-family: monospace;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
- 
-.about-btn:hover {
-    background-color: #005f8c;
-    font-size: 18px
-}
-
-.phytoplankton-btn {
-    font-size: 16px;
-    color: white;
-    font-family: monospace;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
- 
-.phytoplankton-btn:hover {
-    background-color: #005f8c;
-}
-
-.zooplankton-btn {
-    font-size: 16px;
-    color: white;
-    font-family: monospace;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
- 
-.zooplankton-btn:hover {
-    background-color: #005f8c;
-}
-
-.anchovies-btn {
-    font-size: 16px;
-    color: white;
-    font-family: monospace;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
- 
-.anchovies-btn:hover {
-    background-color: #005f8c;
 }
 
 h1 {
@@ -119,6 +69,12 @@ h2:hover {
     color: #0077b6;
     transition: color 0.3s ease-in-out;
 }
+
+h3{
+  font-family: monospace;
+  font-size: 20px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -142,8 +98,11 @@ has context menu
  
  
 has context menu
+
+/* #infocards{
+  display: grid;
+} */
  
-css:
 #virtual-models {
     display: flex;
     justify-content: center;
@@ -152,9 +111,9 @@ css:
 }
 .model {
     border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 50px;
+    background-color: #89CFF0;
     width: 300px;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
