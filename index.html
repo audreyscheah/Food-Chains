@@ -2,35 +2,26 @@
 <body>
   <div class="wrapper">
     <div class="button-container">
+      <div id="Title" style="margin-top: 50px;">AtlanticExplorers</div>
       <nav class="menu">
         <ul>
-          <li><img src="./FoodChainLogo.png"></li>
+          <li><img src="./FoodChainLogo.png" width=50px></li>
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About Us</button></a></li>
-          <li>test</li>
-          <li>test</li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./marinelife.html">Marine Life</a></li>
+          <li><a href="./contactus.html">Contact Us</a></li>
+          <li><img src="./FoodChainLogo.png" width=50px></li>
         </ul>
       </nav>
       <h1>Aquatic Food Chain Projection</h1>
       <h2>Introduction: Welcome to the Atlantic Ocean</h2>
-      <p>As the planet's second largest body of water, the Atlantic Ocean hosts a vast variety of aquatic species.</p>
+      <p>As the planet's second largest body of water, the Atlantic Ocean hosts a vast variety of aquatic species.  Biodiversity throughout its marine ecosystems includes (and exeeds) more than a thousand fish species along with numerous sharks, whales, and turtles.</p>
       <h2>Ecosystems and Food Chains Underwater</h2>
+       <p>Underwater ecosystems, such as those in the Atlantic Ocean, rely on the interconnection of species within the food chain.  Phytoplankton and zooplankton, the foundation of these ecosystems, provide energy and sustenance for a wide range of species, including small fish, jellyfish, and larger predators like sharks and whales.</p>
       <h2>The Effects of Climate Change</h2>
+      <p>Climate change is disrupting ocean ecosystems by altering sea temperatures, acidifying waters, and affecting migration patterns. These changes can disrupt food availability for marine species and lead to a significantly negative impact on the entire food chain, from phytoplankton to top predators like sharks and whales.</p>
       <h2>Simple Atlantic Ocean Food Chain Model</h2>
-      <div id="virtual-models">
-        <div class="model">
-          <h3>Shark</h3>
-          <p>Sharks are _</p>
-          <!-- Placeholder for 3D model -->
-          <canvas id="sharkModel"></canvas>
-        </div>
-        <div class="model">
-          <h3>Dolphin</h3>
-          <p>Dolphins are _</p>
-          <!-- Placeholder for 3D model -->
-          <canvas id="dolphinModel"></canvas>
-        </div>
-      </div>
+     
 
       <img src="./Atlantic Ocean Food Chain.png" width=750px>
       <br></br>
@@ -50,18 +41,8 @@
       <div id="dataoutput7" style="margin-top: 50px;"></div>
       <div id="dataoutput8" style="margin-top: 50px;"></div>
       <br></br>
-      <div id="about-section" style="margin-top: 50px;">
-        <h2>About Us</h2>
-        <p>We are a dedicated team of 3 focused on educating people about the aquatic ecosystems of the Atlantic Ocean and how food chains function underwater.</p>
-        <p> Our goal is to provide a detailed look into marine biology and how different species interact in the ocean food web.</p>
-      </div>
 
       <script>
-        function scrollToSection() {
-          document.getElementById("about-section").scrollIntoView({
-            behavior: "smooth"
-          });
-        }
 
         function phytoplanktondata() {
           document.getElementById("dataoutput1").innerHTML = "Zooplankton population: Decrease by 30-50%";
