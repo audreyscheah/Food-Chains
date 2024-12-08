@@ -9,6 +9,14 @@ html, body {
   padding: 20px;
 }
 
+#Title{
+  font-size: 50px;
+  font-family: cursive;
+  font-style: italic;
+  color: purple;
+  background-color: #0077b6;
+}
+
 .menu ul{
   list style: none;
   margin: 0;
@@ -25,6 +33,7 @@ html, body {
   color:#333;
   font-family: monospace;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .menu a:hover{
@@ -40,55 +49,6 @@ html, body {
  
 .content {
   flex: 1;
-}
-
-
-.phytoplankton-btn {
-    font-size: 16px;
-    color: white;
-    font-family: monospace;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
- 
-.phytoplankton-btn:hover {
-    background-color: #005f8c;
-}
-
-.zooplankton-btn {
-    font-size: 16px;
-    color: white;
-    font-family: monospace;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
- 
-.zooplankton-btn:hover {
-    background-color: #005f8c;
-}
-
-.anchovies-btn {
-    font-size: 16px;
-    color: white;
-    font-family: monospace;
-    background-color: #0077b6;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
- 
-.anchovies-btn:hover {
-    background-color: #005f8c;
 }
 
 h1 {
@@ -155,6 +115,77 @@ canvas {
     background: #eef6fc;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.contact-section {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    border-radius: 8px;
+}
+ 
+.contact-section h2 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+ 
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    color: #0077b6;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+ 
+.social-links a:hover {
+    text-decoration: underline;
+}
+ 
+.feedback-form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+ 
+.feedback-form h3 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+ 
+.feedback-form textarea,
+.feedback-form input,
+.feedback-form button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ebebeb
+}
+ 
+.feedback-form button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+ 
+.feedback-form button:hover {
+    background-color: #005f8e;
+}
+ 
+.contact-section h2.other-header,
+.feedback-form h2.other-header {
+    color: #023e8a;
 }
  
 footer {
