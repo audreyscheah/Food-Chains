@@ -1,1 +1,112 @@
-Marine Life
+<link rel="stylesheet" href="style.css" />
+<body>
+  <div class="wrapper">
+    <div class="button-container">
+      <nav class="menu">
+        <ul>
+          <li><img src="./FoodChainLogo.png"></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Us</button></a></li>
+          <li>test</li>
+          <li>test</li>
+        </ul>
+      </nav>
+      <h1>Aquatic Food Chain Projection</h1>
+      <h2>Introduction: Welcome to the Atlantic Ocean</h2>
+      <p>As the planet's second largest body of water, the Atlantic Ocean hosts a vast variety of aquatic species.</p>
+      <h2>Ecosystems and Food Chains Underwater</h2>
+      <h2>The Effects of Climate Change</h2>
+      <h2>Simple Atlantic Ocean Food Chain Model</h2>
+      <div id="virtual-models">
+        <div class="model">
+          <h3>Shark</h3>
+          <p>Sharks are _</p>
+          <!-- Placeholder for 3D model -->
+          <canvas id="sharkModel"></canvas>
+        </div>
+        <div class="model">
+          <h3>Dolphin</h3>
+          <p>Dolphins are _</p>
+          <!-- Placeholder for 3D model -->
+          <canvas id="dolphinModel"></canvas>
+        </div>
+      </div>
+
+      <img src="./Atlantic Ocean Food Chain.png" width=750px>
+      <br></br>
+
+      <h2>Interactive Population Projection</h2>
+      <p>In the Atlantic Ocean, how will a 50% decrease in one species impact the others? Click for answers from ChatGPT...</p>
+      <button class="phytoplankton-btn" onclick="phytoplanktondata()">Phytoplankton</button>
+      <button class="zooplankton-btn" onclick="zooplanktondata()">Zooplankton</button>
+      <button class="anchovies-btn" onclick="anchoviesdata()">Anchovies</button>
+
+      <div id="dataoutput1" style="margin-top: 50px;"></div>
+      <div id="dataoutput2" style="margin-top: 50px;"></div>
+      <div id="dataoutput3" style="margin-top: 50px;"></div>
+      <div id="dataoutput4" style="margin-top: 50px;"></div>
+      <div id="dataoutput5" style="margin-top: 50px;"></div>
+      <div id="dataoutput6" style="margin-top: 50px;"></div>
+      <div id="dataoutput7" style="margin-top: 50px;"></div>
+      <div id="dataoutput8" style="margin-top: 50px;"></div>
+      <br></br>
+      <div id="about-section" style="margin-top: 50px;">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of 3 focused on educating people about the aquatic ecosystems of the Atlantic Ocean and how food chains function underwater.</p>
+        <p> Our goal is to provide a detailed look into marine biology and how different species interact in the ocean food web.</p>
+      </div>
+
+      <script>
+        function scrollToSection() {
+          document.getElementById("about-section").scrollIntoView({
+            behavior: "smooth"
+          });
+        }
+
+        function phytoplanktondata() {
+          document.getElementById("dataoutput1").innerHTML = "Zooplankton population: Decrease by 30-50%";
+          document.getElementById("dataoutput2").innerHTML = "Anchovy population: Decrease by 20-40%";
+          document.getElementById("dataoutput3").innerHTML = "Jellyfish population: Increase by 10-20%";
+          document.getElementById("dataoutput4").innerHTML = "Blue whale population: Decrease by 5-15%";
+          document.getElementById("dataoutput5").innerHTML = "Tuna population: Decrease by 10-20%";
+          document.getElementById("dataoutput6").innerHTML = "Leatherback sea turtle population: Decrease by 5-10%";
+          document.getElementById("dataoutput7").innerHTML = "Dolphin population: Decrease by 5-10%";
+          document.getElementById("dataoutput8").innerHTML = "Great white shark population: Decrease by 5-10%";
+          phytoplanktondata();
+        }
+
+        function zooplanktondata() {
+          document.getElementById("dataoutput1").innerHTML = "Phytoplankton population: No significant direct impact (likely unchanged)";
+          document.getElementById("dataoutput2").innerHTML = "Anchovy population: Decrease by 20-40%";
+          document.getElementById("dataoutput3").innerHTML = "Jellyfish population: Increase by 10-20%";
+          document.getElementById("dataoutput4").innerHTML = "Blue whale population: Decrease by 5-10%";
+          document.getElementById("dataoutput5").innerHTML = "Tuna population: Decrease by 10-20%";
+          document.getElementById("dataoutput6").innerHTML = "Leatherback sea turtle population: Decrease by 5-10%";
+          document.getElementById("dataoutput7").innerHTML = "Dolphin population: Decrease by 5-10%";
+          document.getElementById("dataoutput8").innerHTML = "Great white shark population: Decrease by 5-10%";
+          zooplanktondata();
+        }
+
+        function anchoviesdata() {
+          document.getElementById("dataoutput1").innerHTML = "Phytoplankton population: No significant direct impact (likely unchanged)";
+          document.getElementById("dataoutput2").innerHTML = "Zooplankton population: No significant direct impact (likely unchanged)";
+          document.getElementById("dataoutput3").innerHTML = "Jellyfish population: Increase by 5-10%";
+          document.getElementById("dataoutput4").innerHTML = "Blue whale population: Decrease by 5-10%";
+          document.getElementById("dataoutput5").innerHTML = "Tuna population: Decrease by 10-20%";
+          document.getElementById("dataoutput6").innerHTML = "Leatherback sea turtle population: Decrease by 5-10%";
+          document.getElementById("dataoutput7").innerHTML = "Dolphin population: Decrease by 5-10%";
+          document.getElementById("dataoutput8").innerHTML = "Great white shark population: Decrease by 5-10%";
+          anchoviesdata();
+        }
+      </script>
+
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <p>© 2024 Aquatic Food Chain Education. All rights reserved.</p>
+        <p>Designed by WCTD Hack-a-thon Level 1 Team</p>
+      </div>
+    </footer>
+
+</body>
